@@ -1,0 +1,7 @@
+{
+  "name": "Legacy Shield Beacon - AI Dialer & Sales Performance",
+  "description": "A comprehensive SaaS platform for life insurance sales organizations, featuring hierarchical team management, lead workflows, performance tracking, and live call monitoring.",
+  "requestFramePermissions": [
+    "microphone"
+  ]
+}
