@@ -11,7 +11,7 @@ import PersonalTracker from './PersonalTracker';
 import CompanyArena from './CompanyArena';
 import HelpTab from './HelpTab';
 import BeaconModal from './BeaconModal';
-import SalesAI from './SalesAI';
+import SalesAI from './sales-AI';
 
 interface PortalProps {
   user: User;
