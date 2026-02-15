@@ -1,39 +1,8 @@
 {
-<<<<<<< HEAD
-    "name": "lsbeacon-root",
-    "private": true,
-    "version": "1.0.0",
-    "engines": { "node": "20.x" },
-    "scripts": {
-      "build": "npm --prefix frontend ci || npm --prefix frontend install && npm --prefix frontend run build"
-    }
-=======
-  "name": "backend",
-  "version": "1.0.0",
-  "description": "",
-  "license": "ISC",
-  "author": "ahmed afzal",
-  "type": "commonjs",
-  "main": "src/index.js",
-  "scripts": {
-    "start": "node src/index.js",
-    "render-start": "cd backend && node src/index.js",
-    "dev": "nodemon src/index.js",
-    "test": "echo \"Error: no test specified\" && exit 1"
-  },
-  "dependencies": {
-    "@supabase/supabase-js": "^2.90.1",
-    "bcryptjs": "^3.0.3",
-    "cors": "^2.8.5",
-    "dotenv": "^17.2.3",
-    "express": "^5.2.1",
-    "jsonwebtoken": "^9.0.3",
-    "openai": "^6.22.0",
-    "pg": "^8.16.3",
-    "telnyx": "^5.17.2"
-  },
-  "devDependencies": {
-    "nodemon": "^3.1.11"
->>>>>>> 7b6e34d (fix render start)
-  }
-  
+  "name": "lsbeacon-root",
+  "private": true,
+  "workspaces": [
+    "backend",
+    "frontend"
+  ]
+}
